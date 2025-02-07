@@ -13,43 +13,26 @@ Required libraries: <br>
  -  NumPy<br>
  -  Pandas<br>
  -  Scikit-learn<br>
- -  CatBoost<br>
  -  Matplotlib<br>
  -  Seaborn<br>
  -  TensorFlow<br>
  -  Keras<br>
- -  RandomForest<br>
 
 # Running the Code
-## Step 1: Data Preprocessing
-Run k-mean_clustering.ipynb script to perform weather-based clustering.<br>
-Run splitting_the_clustering_data.ipynb script to separate respective clusters.<br>
-
-## Step 2: Model Training and Evaluation
-
-Run the Bidirectional_LSTM.ipynb, GRU.ipynb, CatBoost.ipynb and adaboost.ipynb scripts from respective folders to train and evaluate the weather-classified CatBoost model against benchmark techniques.
+Run the DA-QLSTM, DALSTM.ipynb, LSTM.ipynb, GRU.ipynb, Simple RNN.ipynb, RNN-GRU.ipynb, RNN-LSTM.ipynb, QLSTM.ipynb and CNN-LSTM.ipynb scripts from respective folders to train and evaluate the proposed technique against benchmark techniques.
 
 ## Step 3: Visualization
-Run the bar_plot.ipynb, graph.ipynb and scatter_regression_plot.ipynb scripts to visualize the forecasting results and compare the model's performance.
+Run the bar_plot.ipynb and graph.ipynb scripts to visualize the forecasting results and compare the model's performance.
 
 
-Short-term-Global-Horizontal-Irradiance-Forecasting/ <br>
-├── Datasets/                   # Folder for datasets <br>
-├── Weather Calssification/     # Folder containing scripts for data preprocessing and clustering <br>
-├── Simulation for/             # Folder containing scripts for model training and evaluation <br>
-├── Graphicall illustration     # Folder containing scripts for result visualization <br>
-├── README.md                   # Project README file <br>
+Dual-Attention-Mechanism-Based-Quantile-LSTM/ <br>
+├── Datasets/                          # Folder for datasets <br>
+├── Simulation for IESCO dataset/      # Folder containing scripts for model training and evaluation for IESCO dataset <br>
+├── Simulation for Panama dataset/     # Folder containing scripts for model training and evaluation for Panama dataset <br>
+├── Graphicall illustration            # Folder containing scripts for result visualization <br>
+├── README.md                          # Project README file <br>
 
 
 
 
 ## Reference
-Please cite this work as:
-"Ubaid Ahmed, Ahsan Raza Khan, Anzar Mahmood, Iqra Rafiq, Rami Ghannam, Ahmed Zoha,
-Short-term global horizontal irradiance forecasting using weather-classified categorical boosting,
-Applied Soft Computing,
-2024,
-111441,
-ISSN 1568-4946,
-https://doi.org/10.1016/j.asoc.2024.111441.
-(https://www.sciencedirect.com/science/article/pii/S1568494624002151)"
