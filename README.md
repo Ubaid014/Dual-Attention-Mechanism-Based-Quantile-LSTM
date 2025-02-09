@@ -32,7 +32,16 @@ Dual-Attention-Mechanism-Based-Quantile-LSTM/ <br>
 ├── Graphicall illustration            # Folder containing scripts for result visualization <br>
 ├── README.md                          # Project README file <br>
 
-
-
-
 ## Reference
+@article{SHAH20252343,<br>
+title = {Improved electric load forecasting using quantile long short-term memory network with dual attention mechanism},<br>
+journal = {Energy Reports},<br>
+volume = {13},<br>
+pages = {2343-2353},<br>
+year = {2025},<br>
+issn = {2352-4847},<br>
+doi = {https://doi.org/10.1016/j.egyr.2025.01.058},<br>
+url = {https://www.sciencedirect.com/science/article/pii/S2352484725000617},<br>
+author = {Syed Afraz Hussain Shah and Ubaid Ahmed and Muhammad Bilal and Ahsan Raza Khan and Sohail Razzaq and Imran Aziz and Anzar Mahmood},<br>
+keywords = {Dual attention, Quantile loss function, Load forecasting, Hybrid methodologies, Long short-term memory network},<br>
+}
